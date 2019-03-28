@@ -1,15 +1,21 @@
-import * as T from './ActionTypes';
+import * as T from './actionTypes';
 
-export function addNumber(payload) {
+export function addNumber(number) {
   return {
     type: T.ADD_NUMBER,
-    payload: payload.number,
+    payload: { number },
   };
 }
 
-export function subNumber(payload) {
+export function subNumber(number) {
   return {
     type: T.SUB_NUMBER,
-    payload: payload.number,
+    payload: { number },
+  };
+}
+
+export function getNumber() {
+  return {
+    type: T.GET_NUMBER,
   };
 }

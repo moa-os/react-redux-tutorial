@@ -1,4 +1,4 @@
-import * as T from './ActionTypes';
+import * as T from './actionTypes';
 
 const defaultState = {
   name: 'Innit',
