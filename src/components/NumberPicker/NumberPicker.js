@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import * as A from '../../state/actions';
+import * as A from '../../state/Actions';
 import './style.css';
 
 const NumberPicker = (props) => {

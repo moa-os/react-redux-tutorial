@@ -1,4 +1,4 @@
-import * as T from './actionTypes';
+import * as T from './ActionTypes';
 
 export function addNumber(number) {
   return {
